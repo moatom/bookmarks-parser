@@ -12,7 +12,7 @@ setup(
     description = "netscape bookmarks parser",
     license = "MIT",
     url = "https://github.com/moatom/bookmarks-parser",
-    long_description = read('README,md'),
+    long_description = read('README.md'),
     packages = find_packages(exclude=('tests')),
     install_requires = ['beautifulsoup4', 'html5lib']
 )
