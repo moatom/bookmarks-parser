@@ -7,3 +7,4 @@ bookmarks_parser.egg-info
 
 __pycache__
 .out*
+.ex-*

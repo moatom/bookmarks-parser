@@ -3,7 +3,7 @@ Parsing Netscape bookmark (Google Chrome, Firefox, ... export files) .
 
 ## Installation
 ```
-$ pip install -e git+https://github.com/moatom/bookmarks-parser.git
+$ pip install -e "git+https://github.com/moatom/bookmarks-parser.git#egg=bookmarks-parser"
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ pprint.pprint(bookmarks)
 
 [output example](https://github.com/andriyor/bookmarks-parser/tree/master/tests/tests_data)
 
-## Development
+<!-- ## Development
 Install [Poetry](https://poetry.eustace.io/docs/)   
 ```
 $ poetry install
@@ -35,7 +35,7 @@ $ poetry install
 run tests
 ```
 $ poetry run pytest --cov=bookmarks_parser
-```
+``` -->
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
