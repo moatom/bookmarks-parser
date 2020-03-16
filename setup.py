@@ -4,6 +4,7 @@ import os
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
+# Origial author is "Andriy Orehov <andriyorehov@gmail.com>".
 setup(
     name = "bookmarks-parser",
     version = "0.0.1",
