@@ -4,12 +4,12 @@ import os
 def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
-# Origial author is "Andriy Orehov <andriyorehov@gmail.com>".
+
 setup(
     name = "bookmarks-parser",
     version = "0.0.1",
-    author = "Tomoaki Kobayashi",
-    author_emai = "tomozx8@gmail.com",
+    author = "Andriy Orehov, Tomoaki Kobayashi",
+    author_emai = "andriyorehov@gmail.com, tomozx8@gmail.com",
     description = "netscape bookmarks parser",
     license = "MIT",
     url = "https://github.com/moatom/bookmarks-parser",
