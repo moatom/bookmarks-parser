@@ -1,5 +1,6 @@
 # bookmarks-parser
 Parsing Netscape bookmark (Google Chrome, Firefox, ... export files).
+
 *a little modified from https://github.com/bookmarks-tools/bookmarks-parser/ to suit my preferences*
 
 ## Installation
